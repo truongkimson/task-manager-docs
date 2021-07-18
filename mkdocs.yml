@@ -1,0 +1,12 @@
+site_name: Task Manager
+site_url: http://140.238.194.85/
+nav:
+    - Overview: index.md
+    - Getting Started: getting_started.md
+    - REST API: rest_api.md
+    - About: about.md
+theme: material
+markdown_extensions:
+    - pymdownx.highlight:
+          linenums: true
+    - pymdownx.superfences:
