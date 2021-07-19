@@ -43,13 +43,20 @@ In order to build and deploy the application locally, you'll need the following 
     docker image ls
     ```
 
+Alternatively, you can pull pre-built Docker images from Oracle Container registry
+
+```bash
+docker pull syd.ocir.io/sdvw2vh5qake/task-manager/service:1.0
+docker pull syd.ocir.io/sdvw2vh5qake/task-manager/client:1.0
+```
+
 ## Deploy locally with `docker-compose`
 
 1. Navigate back to root directory `fullstack-task-manager`
    
 2. Open up `docker-compose.yml` file
 
-    ```yml
+    ```yaml
     version: "3.9"
     services:
         db:
@@ -86,7 +93,7 @@ In order to build and deploy the application locally, you'll need the following 
 
     Ensure the following values match the names given to your Docker images
 
-    ```yml
+    ```yaml
      web:
          image: <your-service-image-name>:<version-tag>
      client:
