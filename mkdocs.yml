@@ -4,6 +4,7 @@ nav:
     - Overview: index.md
     - Getting Started: getting_started.md
     - REST API: rest_api.md
+    - Testing: testing.md
     - About: about.md
 theme: material
 markdown_extensions:

@@ -1,17 +1,21 @@
-# Task Manager
+# Overview
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Introduction
 
-## Commands
+This project is a fullstack web application for a personal task manager. User can create, view and manage tasks on a web browser. REST endpoints are provided by services hosted on Oracle Cloud Infrastructure compute instance.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+The application can be accessed by this [link](http://140.238.194.85/ "Task manager page").
 
-## Project layout
+![application overview](./img/application_overview.png)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Technology stack
+
+![fullstack diagram](./img/diagram.png)
+
+Front-end portion of the application is written in ReactJs with Bootstrap 5 and tested with React Testing Library and Jest. Back-end service uses Dropwizard framework and is tested with JUnit 5. For data persistence, MySQL server is used.
+
+## Entity diagram
+
+The entity diagram is simple with only 1 Entity - Task.
+
+![entity_diagram](./img/task_entity_diagram.png)
