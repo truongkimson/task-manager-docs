@@ -45,7 +45,7 @@ In order to build and deploy the application locally, you'll need the following 
 
 ## Deploy locally with `docker-compose`
 
-1. Navigate back to root directory `fullstack-task-manage`
+1. Navigate back to root directory `fullstack-task-manager`
    
 2. Open up `docker-compose.yml` file
 

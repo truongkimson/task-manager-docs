@@ -2,8 +2,8 @@
 
 ## Task Resource
 
-The Task Resource is exposed by this base url `{base_url}:8080/api/v1/task`. This resource provide endpoints to carry out CRUD actions on Task instances.
-Variable `{base_url}` should be the address of the host on which the service is currently using. If you are running the application locally. `{base_url}` should be `http://localhost`
+The Task Resource is exposed with `{base_url}:8080/api/v1/task`. This resource provide endpoints to carry out CRUD actions on Task instances.
+Variable `{base_url}` should be the address of the host on which the service is currently running. If you are running the application locally. `{base_url}` should be `http://localhost`
 
 ## Endpoints
 
