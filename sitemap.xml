@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>http://140.238.194.85/</loc>
+         <lastmod>2021-07-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://140.238.194.85/about/</loc>
+         <lastmod>2021-07-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://140.238.194.85/getting_started/</loc>
+         <lastmod>2021-07-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://140.238.194.85/rest_api/</loc>
+         <lastmod>2021-07-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://140.238.194.85/testing/</loc>
+         <lastmod>2021-07-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
