@@ -19,17 +19,17 @@ Variable `{base_url}` should be the address of the host on which the service is 
 
 <code><span style="color:green">GET</span></code>
 
-### Parameters
+#### Parameters
 
-None
+*None*
 
-### Example request
+#### Example request
 
 ```
 http://localhost:8080/api/v1/task/all
 ```
 
-### Example response
+#### Example response
 
 CODE: <code><span style="color:green">200</span></code>
 
@@ -62,21 +62,21 @@ CODE: <code><span style="color:green">200</span></code>
 
 <code><span style="color:orange">POST</span></code>
 
-### Parameters
+#### Parameters
 
-Header
+*Header*
 
 ```
 Content-Type: application/json
 ```
 
-### Example request
+#### Example request
 
 ```
 http://localhost:8080/api/v1/task/create
 ```
 
-Request body
+*Request body*
 
 ```json
 {
@@ -85,7 +85,7 @@ Request body
 }
 ```
 
-### Example response
+#### Example response
 
 CODE: <code><span style="color:green">201</span></code>
 
@@ -121,21 +121,21 @@ CODE: <code><span style="color:blue">422</span></code>
 
 <code><span style="color:blue">PUT</span></code>
 
-### Parameters
+#### Parameters
 
-Header
+*Header*
 
 ```
 Content-Type: application/json
 ```
 
-### Example request
+#### Example request
 
 ```
 http://localhost:8080/api/v1/task/update
 ```
 
-Request body
+*Request body*
 
 ```json
 {
@@ -145,7 +145,7 @@ Request body
 }
 ```
 
-### Example response
+#### Example response
 
 CODE: <code><span style="color:green">200</span></code>
 
@@ -181,23 +181,23 @@ CODE: <code><span style="color:blue">422</span></code>
 
 <code><span style="color:red">DELETE</span></code>
 
-### Parameters
+#### Parameters
 
 `{task_id}`: id of the task to be deleted
 
-Header
+*Header*
 
 ```
 Content-Type: application/json
 ```
 
-### Example request
+#### Example request
 
 ```
 http://localhost:8080/api/v1/task/78/delete
 ```
 
-### Example response
+#### Example response
 
 CODE: <code><span style="color:green">200</span></code>
 
